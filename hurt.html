@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      
+<head>
+    <div id="circle">
+        <a href="index.html"><img id="home" src="img/icon2.png"></a>
+      </div>
+      
+      <div class="dropdown">
+        <button class="dropbtn"><img id="star" src="img/icon.png"></button>
+        
+        <div class="dropdown-content">
+          <img class="box" src="img/optimisticQ.png">
+        </div>
+
+     </div>
+</head>
+
+<body>
+  
+    <video autoplay muted id="myVideo">
+        <source src="img/hurt.mp4" type="video/mp4">
+        <!-- <img id="creativeQR" src="img/creative.png"> -->
+
+</body>
+
+<script>
+    $( "button.dropbtn, div.dropdown-content a" ).click(function() {
+      $( "div.dropdown-content" ).toggle();
+    });
+  </script>
+
+

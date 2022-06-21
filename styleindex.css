@@ -1,0 +1,72 @@
+
+
+       a {
+        color: white;
+      }
+
+      a:link, a:visited {
+        text-decoration: none;
+      }
+      a:hover{
+        color: transparent;
+        text-shadow: 0 0 5px #daff88;
+      }
+
+      html, body {
+          height: 100%;
+          width: 100%;
+          overflow-x: hidden;
+
+      }
+
+/* #intro{
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding:2em;
+
+} */
+
+body{
+  background-color: #A98CDF;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+    /* margin-left: 3em; */
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    /* font-size: 2em; */
+    padding-top: 4em;
+    transition: transform .2s;
+    /* border-radius: 1.8em;
+    border:1px solid #333333; */
+  }
+
+  .grid-container > div:hover {
+   transform: scale(1.05)}
+  
+.bg {
+  margin-top:-2em;  
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+  overflow: hidden;
+}
+
+
+#anger{
+    display: block;
+    position:relative;
+    right:2em;
+    /* width:200px; */
+}

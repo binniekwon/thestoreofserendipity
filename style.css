@@ -1,0 +1,1448 @@
+
+
+       a {
+        color: white;
+      }
+
+      a:link, a:visited {
+        text-decoration: none;
+      }
+      a:hover{
+        color: transparent;
+        text-shadow: 0 0 5px #daff88;
+      }
+
+      html, body {
+          height: 100%;
+          width: 100%;
+          overflow-x: hidden;
+
+      }
+
+/* #intro{
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding:2em;
+
+} */
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin:auto;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4em;
+  margin-left: 3em;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 4em;
+  transition: transform .2s;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.bg {
+  margin-top:-2em;  
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+  overflow: hidden;
+}
+
+#pannel{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+}
+
+
+
+.disillusioned{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.disillusioned img.disillusion-main{
+  width: 11em;
+} 
+
+.disillusioned img.disillusion-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.disillusioned:hover img.disillusion-main {
+  opacity: 0;
+}
+
+.disillusioned:hover img.disillusion-hover {
+  opacity: 1;
+}
+
+
+
+.hesitant{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.hesitant img.hesitant-main{
+  width: 11em;
+} 
+
+.hesitant img.hesitant-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.hesitant:hover img.hesitant-main {
+  opacity: 0;
+}
+
+.hesitant:hover img.hesitant-hover {
+  opacity: 1;
+}
+
+
+
+.insecure{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.insecure img.insecure-main{
+  width: 11em;
+} 
+
+.insecure img.insecure-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.insecure:hover img.insecure-main {
+  opacity: 0;
+}
+
+.insecure:hover img.insecure-hover {
+  opacity: 1;
+}
+
+
+
+.inferior{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.inferior img.inferior-main{
+  width: 11em;
+} 
+
+.inferior img.inferior-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.inferior:hover img.inferior-main {
+  opacity: 0;
+}
+
+.inferior:hover img.inferior-hover {
+  opacity: 1;
+}
+
+
+
+.weak{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.weak img.weak-main{
+  width: 11em;
+} 
+
+.weak img.weak-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.weak:hover img.weak-main {
+  opacity: 0;
+}
+
+.weak:hover img.weak-hover {
+  opacity: 1;
+}
+
+
+
+.nervous{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.nervous img.nervous-main{
+  width: 11em;
+} 
+
+.nervous img.nervous-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.nervous:hover img.nervous-main {
+  opacity: 0;
+}
+
+.nervous:hover img.nervous-hover {
+  opacity: 1;
+}
+
+
+
+.overwhelmed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.overwhelmed img.overwhelmed-main{
+  width: 11em;
+} 
+
+.overwhelmed img.overwhelmed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.overwhelmed:hover img.overwhelmed-main {
+  opacity: 0;
+}
+
+.overwhelmed:hover img.overwhelmed-hover {
+  opacity: 1;
+}
+
+
+
+.lonely{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.lonely img.lonely-main{
+  width: 11em;
+} 
+
+.lonely img.lonely-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.lonely:hover img.lonely-main {
+  opacity: 0;
+}
+
+.lonely:hover img.lonely-hover {
+  opacity: 1;
+}
+
+
+
+.empty{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.empty img.empty-main{
+  width: 11em;
+} 
+
+.empty img.empty-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.empty:hover img.empty-main {
+  opacity: 0;
+}
+
+.empty:hover img.empty-hover {
+  opacity: 1;
+}
+
+
+/* anger */
+
+.skeptical{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.skeptical img.skeptical-main{
+  width: 11em;
+} 
+
+.skeptical img.skeptical-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.skeptical:hover img.skeptical-main {
+  opacity: 0;
+}
+
+.skeptical:hover img.skeptical-hover {
+  opacity: 1;
+}
+
+
+.jealous{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.jealous img.jealous-main{
+  width: 11em;
+} 
+
+.jealous img.jealous-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.jealous:hover img.jealous-main {
+  opacity: 0;
+}
+
+.jealous:hover img.jealous-hover {
+  opacity: 1;
+}
+
+
+.numb{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.numb img.numb-main{
+  width: 11em;
+} 
+
+.numb img.numb-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.numb:hover img.numb-main {
+  opacity: 0;
+}
+
+.numb:hover img.numb-hover {
+  opacity: 1;
+}
+
+
+.annoyed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.annoyed img.annoyed-main{
+  width: 11em;
+} 
+
+.annoyed img.annoyed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.annoyed:hover img.annoyed-main {
+  opacity: 0;
+}
+
+.annoyed:hover img.annoyed-hover {
+  opacity: 1;
+}
+
+
+
+.betrayed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.betrayed img.betrayed-main{
+  width: 11em;
+} 
+
+.betrayed img.betrayed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.betrayed:hover img.betrayed-main {
+  opacity: 0;
+}
+
+.betrayed:hover img.betrayed-hover {
+  opacity: 1;
+}
+
+
+
+.resentful{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.resentful img.resentful-main{
+  width: 11em;
+} 
+
+.resentful img.resentful-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.resentful:hover img.resentful-main {
+  opacity: 0;
+}
+
+.resentful:hover img.resentful-hover {
+  opacity: 1;
+}  
+
+
+
+.betrayed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.betrayed img.betrayed-main{
+  width: 11em;
+} 
+
+.betrayed img.betrayed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.betrayed:hover img.betrayed-main {
+  opacity: 0;
+}
+
+.betrayed:hover img.betrayed-hover {
+  opacity: 1;
+}  
+
+
+
+.aggressive{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.aggressive img.aggressive-main{
+  width: 11em;
+} 
+
+.aggressive img.aggressive-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.aggressive:hover img.aggressive-main {
+  opacity: 0;
+}
+
+.aggressive:hover img.aggressive-hover {
+  opacity: 1;
+}
+
+/* sorrow */
+
+.melancholy{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.melancholy img.melancholy-main{
+  width: 11em;
+} 
+
+.melancholy img.melancholy-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.melancholy:hover img.melancholy-main {
+  opacity: 0;
+}
+
+.melancholy:hover img.melancholy-hover {
+  opacity: 1;
+}
+
+
+
+.depressed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.depressed img.depressed-main{
+  width: 11em;
+} 
+
+.depressed img.depressed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.depressed:hover img.depressed-main {
+  opacity: 0;
+}
+
+.vulnedepressedrable:hover img.depressed-hover {
+  opacity: 1;
+}
+
+
+.frustrated{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.frustrated img.frustrated-main{
+  width: 11em;
+} 
+
+.frustrated img.frustrated-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.frustrated:hover img.frustrated-main {
+  opacity: 0;
+}
+
+.frustrated:hover img.frustrated-hover {
+  opacity: 1;
+}
+
+
+
+.depressed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.depressed img.depressed-main{
+  width: 11em;
+} 
+
+.depressed img.depressed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.depressed:hover img.depressed-main {
+  opacity: 0;
+}
+
+.depressed:hover img.depressed-hover {
+  opacity: 1;
+}
+
+
+
+.vulnerable{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.vulnerable img.vulnerable-main{
+  width: 11em;
+} 
+
+.vulnerable img.vulnerable-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.vulnerable:hover img.vulnerable-main {
+  opacity: 0;
+}
+
+.vulnerable:hover img.vulnerable-hover {
+  opacity: 1;
+}
+
+
+.vulnerable{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.vulnerable img.vulnerable-main{
+  width: 11em;
+} 
+
+.vulnerable img.vulnerable-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.vulnerable:hover img.vulnerable-main {
+  opacity: 0;
+}
+
+.vulnerable:hover img.vulnerable-hover {
+  opacity: 1;
+}
+
+
+
+.disappointed{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.disappointed img.disappointed-main{
+  width: 11em;
+} 
+
+.disappointed img.disappointed-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.disappointed:hover img.disappointed-main {
+  opacity: 0;
+}
+
+.disappointed:hover img.disappointed-hover {
+  opacity: 1;
+}
+
+.hurt{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.hurt img.hurt-main{
+  width: 11em;
+} 
+
+.hurt img.hurt-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.hurt:hover img.hurt-main {
+  opacity: 0;
+}
+
+.hurt:hover img.hurt-hover {
+  opacity: 1;
+}
+
+
+.mournful{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.mournful img.mournful-main{
+  width: 11em;
+} 
+
+.mournful img.mournful-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.mournful:hover img.mournful-main {
+  opacity: 0;
+}
+
+.mournful:hover img.mournful-hover {
+  opacity: 1;
+}
+
+/* pleasure */
+.fortunate{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.fortunate img.fortunate-main{
+  width: 11em;
+} 
+
+.fortunate img.fortunate-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.fortunate:hover img.fortunate-main {
+  opacity: 0;
+}
+
+.fortunate:hover img.fortunate-hover {
+  opacity: 1;
+}
+
+.creative{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.creative img.creative-main{
+  width: 11em;
+} 
+
+.creative img.creative-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.creative:hover img.creative-main {
+  opacity: 0;
+}
+
+.creative:hover img.creative-hover {
+  opacity: 1;
+}
+
+
+
+.loving{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.loving img.loving-main{
+  width: 11em;
+} 
+
+.loving img.loving-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.loving:hover img.loving-main {
+  opacity: 0;
+}
+
+.loving:hover img.loving-hover {
+  opacity: 1;
+}
+
+
+.optimistic{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.optimistic img.optimistic-main{
+  width: 11em;
+} 
+
+.optimistic img.optimistic-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.optimistic:hover img.optimistic-main {
+  opacity: 0;
+}
+
+.optimistic:hover img.optimistic-hover {
+  opacity: 1;
+}
+
+
+
+.respected{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.respected img.respected-main{
+  width: 11em;
+} 
+
+.respected img.respected-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.respected:hover img.respected-main {
+  opacity: 0;
+}
+
+.respected:hover img.respected-hover {
+  opacity: 1;
+}
+
+
+.energetic{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.energetic img.energetic-main{
+  width: 11em;
+} 
+
+.energetic img.energetic-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.energetic:hover img.energetic-main {
+  opacity: 0;
+}
+
+.energetic:hover img.energetic-hover {
+  opacity: 1;
+}
+
+
+
+.creative{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.creative img.creative-main{
+  width: 11em;
+} 
+
+.creative img.creative-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.creative:hover img.creative-main {
+  opacity: 0;
+}
+
+.creative:hover img.creative-hover {
+  opacity: 1;
+}
+
+
+.optimistic{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.optimistic img.optimistic-main{
+  width: 11em;
+} 
+
+.optimistic img.optimistic-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.optimistic:hover img.optimistic-main {
+  opacity: 0;
+}
+
+.optimistic:hover img.optimistic-hover {
+  opacity: 1;
+}
+
+
+.hopeful{
+  position:relative;
+  margin-top:-40%;
+  width: 11em;
+  height: 11em;
+  /* border-radius: 1.8em;
+  border:1px solid #333333; */
+}
+
+.hopeful img.hopeful-main{
+  width: 11em;
+} 
+
+.hopeful img.hopeful-hover {
+  position: absolute;
+  top: 10;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+  width:11em;
+}
+
+.hopeful:hover img.hopeful-main {
+  opacity: 0;
+}
+
+.hopeful:hover img.hopeful-hover {
+  opacity: 1;
+}
+
+
+/* box background */
+.pleasure{
+  background-color: black;
+  background:radial-gradient(#e6ea3f,#000000);
+}
+
+.sorrow{
+  background-color: black;
+
+  /* background:radial-gradient(#aad5ff,#000000); */
+}
+
+.anxiety{
+  background-color: black;
+
+  /* background:radial-gradient(#c7ffca,#000000); */
+}
+.anger{
+  background-color: black;
+  /* background:radial-gradient(#ffd7ec,#000000); */
+}
+
+#pleasureSub{
+  position: absolute;
+  background: radial-gradient(#ffffff,#fffdbf,#dedede);
+  width:100%;
+  height:100%;
+  border-radius: 3em;
+  z-index: -10;
+  top:0;
+  left:0
+}
+
+#SorrowSub{
+  position: absolute;
+  background: radial-gradient(#ffffff,#aad5ff,#dedede);
+  width:100%;
+  height:100%;
+  border-radius: 3em;
+  z-index: -10;
+  top:0;
+  left:0
+}
+
+#box{
+  text-align: center;
+  margin-top:10%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+#memory{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 100%;
+}
+
+
+
+#creativeQR{
+  display: block;
+  width:20%;
+  margin:auto;
+  margin-top:1em;
+}
+
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right:0;
+  top:0;
+  z-index: 10;
+
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: transparent;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  z-index: 10;
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px #b67ad6(0,0,0,0.2);
+  z-index: 1;
+  /* background: rgb(219,191,255);
+  background: radial-gradient(circle, rgba(219,191,255,1) 12%, rgba(236,242,255,1) 100%); */
+  font-size: 4vw;
+  right: 20%;
+  padding: 1em;
+  margin-left:px;
+  margin-top: 1em;
+  width:660px;
+  height: 1060px;
+  z-index: 10;
+
+}
+
+
+.box{
+  display:block; 
+  position:absolute; 
+  width:250px; 
+  margin-top:-3em; 
+  margin-left:8em; 
+  z-index: 10;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 700px;
+  line-height: 5vw;
+  font-family: 'IBM Plex Serif', serif;
+  z-index: 10;
+
+
+
+}
+
+.dropdown:hover .dropbtn {background-color: transparent; filter: blur(5px);}
+.dropdown:hover .dropdown-content {display: block;}
+        
+
+            
+#home{
+  width:130px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  display: inline-block;
+  left:0;
+  top:3em;
+  z-index: 10;
+}
+
+#home:hover {
+filter: blur(5px);
+}
+
+
+#star{
+  width:140px;
+  right:0;
+  margin-top:3em;
+}
