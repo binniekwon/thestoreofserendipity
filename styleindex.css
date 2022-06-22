@@ -29,7 +29,7 @@
 } */
 
 body{
-  background-color: #A98CDF;
+  background-color: black;
   color: white;
   font-family: 'IBM Plex Sans', sans-serif;
 
@@ -37,24 +37,22 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 2em;
-    /* margin-left: 3em; */
+    /* gap: 2em; */
   }
   
   .grid-container > div {
     text-align: center;
-    /* font-size: 2em; */
-    padding-top: 4em;
+    /* padding-top: 1em; */
     transition: transform .2s;
-    /* border-radius: 1.8em;
-    border:1px solid #333333; */
+    margin-left:-10em;
+    margin-top:4em;
   }
 
   .grid-container > div:hover {
-   transform: scale(1.05)}
+   transform: scale(1.0)}
   
 .bg {
-  margin-top:-2em;  
+  /* margin-top:-2em;   */
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,9 +62,133 @@ body{
 }
 
 
-#anger{
-    display: block;
-    position:relative;
-    right:2em;
-    /* width:200px; */
+
+.pleasure{
+  position:relative;
+  width:78%;
+}
+
+.pleasure img.pleasure-main{
+  position: absolute;
+  width:78%;
+} 
+
+.pleasure img.pleasure-hover {
+  width:78%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.pleasure:hover img.pleasure-main {
+  opacity: 0;
+}
+
+.pleasure:hover img.pleasure-hover {
+  opacity: 1;
+}
+
+
+
+
+.sorrow{
+  position:relative;
+  width:85%;
+  top: 18em;
+  left: -3.4em;
+}
+
+.sorrow img.sorrow-main{
+  position: absolute;
+  width:85%;
+} 
+
+.sorrow img.sorrow-hover {
+  width:85%;
+  position: absolute;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.sorrow:hover img.sorrow-main {
+  opacity: 0;
+}
+
+.sorrow:hover img.sorrow-hover {
+  opacity: 1;
+}
+
+
+
+
+.anxiety{
+  position:relative;
+  width:81%;
+}
+
+.anxiety img.anxiety-main{
+  width:81%;
+  position: absolute;
+  margin-top:1em;
+
+} 
+
+.anxiety img.anxiety-hover {
+  width:81%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .2s;
+  margin-top:1em;
+
+}
+
+.anxiety:hover img.anxiety-main {
+  opacity: 0;
+}
+
+.anxiety:hover img.anxiety-hover {
+  opacity: 1;
+}
+
+
+
+
+.anger{
+  position:relative;
+  width:80%;
+  top: 20em;
+
+
+}
+
+.anger img.anger-main{
+  width:80%;
+  position: absolute;
+
+} 
+
+.anger img.anger-hover {
+  width:80%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .2s;
+  /* margin-left:-80em; */
+}
+
+.anger:hover img.anger-main {
+  opacity: 0;
+}
+
+.anger:hover img.anger-hover {
+  opacity: 1;
+}
+
+
+#bgVideo {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-left:-15em;
 }

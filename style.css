@@ -32,15 +32,14 @@ body{
   background-color: black;
   color: white;
   font-family: 'IBM Plex Sans', sans-serif;
-  margin:auto;
-
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 4em;
-  margin-left: 3em;
+  margin-left: 4em;
+  margin-top:8em;
 }
 
 .grid-container > div {
@@ -68,6 +67,14 @@ body{
   width: 11em;
 }
 
+
+#bgVideo {
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  margin-left:-15em;
+}
 
 
 .disillusioned{
